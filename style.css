@@ -1,11 +1,28 @@
+html {
+    height: 100%;
+}
+
 body {
     background-image: url("src/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+}
+
+.parent {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 99%;
 }
 
 .panel {
-    width: 20%;
-    height: 20%;
-    color: white;
+    position: relative;
+    height: 900px;
+    width: 900px;
+    top: calc(50% - 70px/2);
+    background-color: white;
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 200px;
 }
