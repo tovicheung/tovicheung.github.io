@@ -3,3 +3,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.panel {
+    width: 20%;
+    height: 20%;
+    color: white;
+}
