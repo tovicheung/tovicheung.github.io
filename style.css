@@ -52,6 +52,11 @@ body {
     background-position: center bottom;
 }
 
+.thumbnail--termheight {
+    background-image: url("src/termheight.png");
+    background-position: center bottom;
+}
+
 .thumbnail__overlay {
     position: relative;
     padding-top: 8em;
