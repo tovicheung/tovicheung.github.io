@@ -57,6 +57,11 @@ body {
     background-position: center bottom;
 }
 
+.thumbnail--swapfile {
+    background-image: url("src/swapfile.png");
+    background-position: center bottom;
+}
+
 .thumbnail__overlay {
     position: relative;
     padding-top: 8em;
