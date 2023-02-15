@@ -29,6 +29,11 @@ body {
     opacity: 0.8;
 }
 
+.showcase--highlight {
+    border: 8px solid red;
+    border-radius: 10px;
+}
+
 .showcase:hover {
     transition: 0.5s;
     opacity: 1;
